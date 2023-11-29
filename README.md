@@ -10,7 +10,7 @@ Try it here: https://radioactiverocket.github.io/physbox/
 Contains many features, including 20+ elements, play, pause and forward buttons as well as controls to change the shape and size of the brush and take a screenshot.
 
 ### ⚠️ IMPORTANT ⚠️
-Setting the render mode to glow is **NOT** reccomended as of this version as the game will run very, *very* slow.
+Setting the render mode to glow is **NOT** reccomended as of this version as the game will run very slowly - especially when running the game on a browser other than Chrome.
 
 ---
 Version Number: `0.4.5`
