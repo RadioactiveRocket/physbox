@@ -1,0 +1,144 @@
+/* Resetting default margin, padding, and hiding overflow */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Poppins", Arial; /* Set the font family to "Poppins" or, if not available, "Arial". */
+}
+
+/* Styling for the game element */
+#game {
+    font-size: 10px;
+}
+
+/* Styling for the render element */
+#render {
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: #333;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    gap: 0;
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+}
+
+/* Styling for the picker element */
+#picker {
+    background-color: #707070;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    width: 20vw;
+    left: 100%;
+    transform: translate(-100%, 0);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the buttonslist element */
+#buttonslist {
+    height: 100%;
+}
+
+/* Styling for the buttons element */
+.buttons {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Styling for the playcontrols element */
+#playcontrols {
+    background-color: #707070;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+/* Styling for buttons and input elements within the picker element */
+#picker input[type="button"], button {
+    min-height: 0;
+    appearance: none;
+    cursor: pointer;
+    color: #333;
+    border: none;
+    background-color: #FCFCFD;
+    outline: none;
+    padding: 12px 0;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+    transition: height 0.2s, opacity 0.15s;
+}
+
+/* Styling for children of playcontrols, overriding width with !important */
+#playcontrols > * {
+    width: 100% !important;
+}
+
+/* Styling for active elements and buttons when active, overriding styles with !important */
+#playcontrols >  .active, #forwardbutton:active, #clearbutton:active, #camerabutton:active {
+    background-color: #646464 !important;
+    color: #FCFCFD !important;
+}
+
+/* Styling for active elements with SVG children, overriding fill with !important */
+#playcontrols .active > svg {
+    fill: white !important
+}
+
+/* Styling for button hover effect */
+#picker button:hover, input[type="button"]:hover {
+    opacity: 0.7;
+}
+
+/* Styling for SVG elements */
+svg {
+    display:block; padding:0; width:max-content; margin:auto;
+}
+
+/* Styling for active and active button elements in picker */
+#picker > .active, #picker > button:active {
+    text-decoration: underline;
+}
+
+/* Styling for color input type */
+input[type="color"] {
+    appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	width: 100%;
+    height: 50%;
+}
+
+/* Styling for color input type in WebKit */
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+/* Styling for color input type in WebKit */
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+/* Styling for select element */
+select {
+    width: 100%;
+}
+
+/* Styling for disabled class, hiding the element with !important */
+.disabled {
+    display: none !important;
+}

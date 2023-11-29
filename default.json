@@ -1,0 +1,278 @@
+[ 
+    {
+        "name": "Sand",
+        "density": 10,
+        "isstatic": false,
+        "type": "dust",
+        "colour": "#dcb159"
+    },
+
+    {
+        "name": "Water",
+        "density": 9.5,
+        "isstatic": false,
+        "type": "liquid",
+        "varynumber": 20,
+        "backgroundcolour": "#1ca3ec",
+        "colourtype": "?*l",
+        "colour": ["#00d2ff", "#3a47d5"],
+        "spreadable": true,
+        "Salt": {
+            "spreadchance": 1
+        },
+        "Liquid Nitrogen": {
+            "spreadchance": 0.1
+        },
+        "Ice": {
+            "spreadchance": 0.005
+        },
+        "Fire": {
+            "spreadchance": 0.1,
+            "spreadparticle": 9
+        }
+    },
+
+    {
+        "name": "Gravel",
+        "density": 10,
+        "isstatic": false,
+        "type": "powder",
+        "colour": "grey",
+        "textcolour": "white"
+    },
+
+    {
+        "name": "Stone",
+        "isstatic": true,
+        "colour": "#53544E",
+        "textcolour": "white",
+        "*": {
+            "spreadchance": 0
+        }
+    },
+
+    {
+        "name": "Salt",
+        "density": 10,
+        "isstatic": false,
+        "type": "dust",
+        "colour": "#FFF5EE",
+        "spreadable": true,
+        "spreadparticle": 7,
+        "Saltwater": {
+            "spreadchance": 0.01
+        }
+    },
+
+    {
+        "name": "Saltwater",
+        "density": 9.2,
+        "isstatic": false,
+        "type": "liquid",
+        "varynumber": 20,
+        "colourtype": "?*l",
+        "backgroundcolour": "#74ccf4",
+        "colour": ["#00C9FF", "#90feea"],
+        "spreadable": true,
+        "Liquid Nitrogen": {
+            "spreadchance": 0.05
+        },
+        "Ice": {
+            "spreadchance": 0.002
+        },
+        "Fire": {
+            "spreadchance": 0.1,
+            "spreadparticle": 9
+        }
+    },
+
+    {
+        "name": "Lava",
+        "density": 9.8,
+        "isstatic": false,
+        "type": "liquid",
+        "textcolour": "white",
+        "colour": "#ff6600",
+        "shadowblur": 5,
+        "spreadable": true,
+        "spreadparticle": 10,
+        "changechance": 0.0005,
+        "changeparticle": 8
+    },
+
+    {
+        "name": "Fire",
+        "density": 8.5,
+        "isstatic": false,
+        "type": "gas",
+        "textcolour": "white",
+        "colour": "#ff9a00",
+        "shadowblur": 5,
+        "spreadable": true,
+        "changechance": 0.1,
+        "Biospread": {
+            "spreadchance": 0
+        }
+    },
+
+    {
+        "name": "Steam",
+        "density": 8.2,
+        "isstatic": false,
+        "changechance": 0.05,
+        "type": "gas",
+        "colour": "#b9e8ea"
+    },
+
+    {
+        "name": "Wood",
+        "isstatic": true,
+        "textcolour": "white",
+        "colour": "#A3876A",
+        "Fire": {
+            "spreadchance": 0.07
+        },
+        "Lava": {
+            "spreadchance": 0.1
+        },
+        "Acid": {
+            "spreadchance": 0.1
+        }
+    },
+
+    {
+        "name": "Gunpowder",
+        "density": 10,
+        "isstatic": false,
+        "textcolour": "white",
+        "type": "dust",
+        "colour": "#655757",
+        "Fire": {
+            "spreadchance": 0.9
+        },
+        
+        "Acid": {
+            "spreadchance": 0.9
+        }
+    },
+
+    {
+        "name": "Acid",
+        "spreadchance": 0.01,
+        "density": 9.5,
+        "isstatic": false,
+        "type": "liquid",
+        "backgroundcolour": "#89ff00",
+        "varynumber": 20,
+        "colourtype": "?*l",
+        "colour": ["#f8ff00", "#3ad59f"],
+        "shadowblur": 5,
+        "spreadable": true,
+        "spreadparticle": 0
+    },
+
+    {
+        "name": "Bricks",
+        "isstatic": true,
+        "textcolour": "white",
+        "colour": "#BC4A3C",
+        "Lava": {
+            "spreadchance": 0.002
+        },
+        "Acid": {
+            "spreadchance": 0.005
+        }
+    },
+
+    {
+        "name": "Ice",
+        "isstatic": true,
+        "backgroundcolour": "#b9e8ea",
+        "colour": ["#b9e8ea", "#b9e8ea", "#b9e8ea", "#b9e8ea", "#86d6d8"],
+        "colourtype": "x*(y*2)",
+        "spreadable": true,
+        "Fire": {
+            "spreadchance": 0.5,
+            "spreadparticle": 2
+        },
+        "Acid": {
+            "spreadchance": 0.01
+        }
+    },
+
+    {
+        "name": "Liquid Nitrogen",
+        "density": 9.1,
+        "isstatic": false,
+        "type": "liquid",
+        "colour": "#e2e2f8",
+        "spreadable": true,
+        "spreadparticle": 14
+    },
+
+    {
+        "name": "Oil",
+        "density": 9,
+        "isstatic": false,
+        "type": "liquid",
+        "colour": "#4e0f00",
+        "textcolour": "white",
+        "Fire": {
+            "spreadchance": 0.1
+        }
+    },
+
+    {
+        "name": "Biospread",
+        "density": 9,
+        "isstatic": false,
+        "backgroundcolour": "#515ada",
+        "type": "liquid",
+        "varynumber": 20,
+        "colourtype": "?*l",
+        "colour": ["#efd5ff", "#515ada"],
+        "textcolour": "white",
+        "spreadable": true,
+        "spreadchance": 0.1,
+        "Fire": {
+            "spreadchance": 0.1
+        }
+    },
+
+    {
+        "name": "Sodium",
+        "density": 10,
+        "isstatic": false,
+        "type": "powder",
+        "colour": "#c4d4ca",
+        "Fire": {
+            "spreadchance": 0.1
+        },
+        "Water": {
+            "spreadchance": 0.05,
+            "spreadparticle": 8
+        },
+        "Saltwater": {
+            "spreadchance": 0.03,
+            "spreadparticle": 8
+        }
+    },
+
+    {
+        "name": "Ash",
+        "density": 10,
+        "isstatic": false,
+        "type": "dust",
+        "textcolour": "white",
+        "colour": "#727064"
+    },
+
+    {
+        "name": "Snow",
+        "density": 10,
+        "isstatic": false,
+        "type": "powder",
+        "colour": "#f5ffff",
+        "gravitychance": 0.3
+    }
+]
