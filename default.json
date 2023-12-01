@@ -274,5 +274,14 @@
         "type": "powder",
         "colour": "#f5ffff",
         "gravitychance": 0.3
+    },
+    {
+
+        "name": "Glass",
+        "isstatic": true,
+        "backgroundcolour": "#f9fdfc",
+        "textcolour": "white",
+        "colour": ["#00FFFFFF", "#00FFFFFF", "#00FFFFFF", "#00FFFFFF", "#f9fdfc"],
+        "colourtype": "x*(y*2)"
     }
 ]
