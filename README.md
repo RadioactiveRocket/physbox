@@ -1,5 +1,5 @@
 # physbox
-A falling-sand simulation game made using JavaScript and HTML Canvas.
+A modular falling-sand simulation game made using JavaScript and HTML Canvas.
 
 Inspired by great games such as The Powder Toy and the amazing Powder Game 2.
 
