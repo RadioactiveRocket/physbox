@@ -281,7 +281,6 @@
         "isstatic": true,
         "backgroundcolour": "#f9fdfc",
         "bordercolour": "#f9fdfc",
-        "textcolour": "white",
         "colour": ["rgba(228, 252, 242, 0.1)", "rgba(228, 252, 242, 0.1)", "rgba(228, 252, 242, 0.1)", "rgba(228, 252, 242, 0.1)", "#f9fdfc"],
         "colourtype": "x*(y*2)"
     }
