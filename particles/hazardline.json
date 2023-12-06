@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Animated Hazard Lines",
+        "description": "Adds 9 animated hazard lines which you can play around with.",
+        "version": "6.0",
+        "engineverson": "0.4",
+        "author": "physbox"
+    },
+
+    [
+        {
+            "name": "Yellow Hazard Line",
+            "isstatic": true,
+            "backgroundcolour": "#F8A81B",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#F8A81B", "black"],
+            "textcolour": "white"
+        },
+        
+        {
+            "name": "Orange Hazard Line",
+            "isstatic": true,
+            "backgroundcolour": "#FF5B00",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#FF5B00", "black"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Red Hazard Line",
+            "isstatic": true,
+            "backgroundcolour": "#DB0D0D",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#DB0D0D", "black"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Mandatory/Police Line",
+            "isstatic": true,
+            "backgroundcolour": "#005487",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#005487", "#ecece7"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Safe Line",
+            "isstatic": true,
+            "backgroundcolour": "#257d54",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#257d54", "#ecece7"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Prohibited/Firefighter Line",
+            "isstatic": true,
+            "backgroundcolour": "#9c2525",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#9c2525", "#ecece7"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Unknown Hazard Line",
+            "isstatic": true,
+            "backgroundcolour": "#9702fe",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#9702fe", "#ecece7"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Biological Hazard Line",
+            "isstatic": true,
+            "backgroundcolour": "#e62952",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#e62952", "#ecece7"],
+            "textcolour": "white"
+        },
+
+        {
+            "name": "Radioactive Hazard Line",
+            "isstatic": true,
+            "backgroundcolour": "#ff00ff",
+            "colourtype": "0.1*(x+y+#)",
+            "colour": ["#ff00ff", "#ffff00"],
+            "textcolour": "white"
+        }
+    ]
+]
