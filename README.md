@@ -13,4 +13,4 @@ Contains many features, including 20+ elements, play, pause and forward buttons 
 Setting the render mode to glow is **NOT** reccomended as of this version as the game will run very slowly - especially when running the game on a browser other than Chrome.
 
 ---
-Version Number: `0.4.5`
+Version Number: `0.4.6`
