@@ -35,11 +35,11 @@ let array = [];
 let updated = [];
 
 let mods = [
-    "default.json",
-    // "hazardline.json",
-    // "rainbowparticles.json",   
-    // "static.json",
-    // "debug.json",
+    "particles/default.json",
+    // "particles/hazardline.json",
+    // "particles/rainbowparticles.json",   
+    // "articles/static.json",
+    // "particles/debug.json",
 ]
 
 let particles = {
