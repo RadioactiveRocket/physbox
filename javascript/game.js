@@ -503,6 +503,12 @@ function render() {
                             }
                         }
 
+                        if (particles[particle].bordercolour !== undefined) {
+                            if ((outOfBounds(y-1, x) || array[y-1][x] != particle) || (outOfBounds(y+1, x) || array[y+1][x] != particle) || (outOfBounds(y, x+1) || array[y][x+1] != particle) || (outOfBounds(y, x-1) || array[y][x-1] != particle)) {
+                                ctx.fillStyle = particles[particle].bordercolour
+                            }
+                        }
+
                         ctx.fillRect(x*size, y*size, size, size);
 
                     } catch { // Invalid element or trouble with texturing.
